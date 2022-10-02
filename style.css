@@ -75,3 +75,44 @@ ul {
     padding: 6px 18px;
 }
 
+.information-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    padding: 60px 100px;
+}
+
+.information-cards {
+    padding: 60px 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-box {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.subtext {
+    color: #1f2937;
+    max-width: fit-content;
+    text-align: center;
+}
