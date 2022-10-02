@@ -5,6 +5,11 @@
     border: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
     background-color: #1f2937;
     padding-left: 100px;
@@ -115,4 +120,28 @@ ul {
     color: #1f2937;
     max-width: fit-content;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: right;
 }
