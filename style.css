@@ -186,3 +186,15 @@ ul {
     padding: 6px 18px;
     color: #f9faf8;
 }
+
+.footer {
+    background-color:#1f2937
+}
+
+.footer-text {
+    color: #e5e7eb;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
